@@ -8,7 +8,7 @@ include 'path.php';
 
 <head>
     <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
+    <title>Logistica - Shipping Company</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -16,7 +16,8 @@ include 'path.php';
     <!-- Favicon -->
     <link href="assets/img/favicon.ico" rel="icon">
 
-    <!-- Google Web Fonts -->
+    <!-- All Styles -->
+    <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
     
 </head>
 
