@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+include 'path.php';
+
+?>
+
 <head>
     <meta charset="utf-8">
     <title>Logistica - Shipping Company Website Template</title>
@@ -34,7 +39,9 @@
 
 <body>
     
-
+    <!-- HEADER -->
+	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+	<!-- /HEADER -->
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 ">
