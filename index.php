@@ -54,7 +54,7 @@ include 'path.php';
 
 
     <!-- Service Start -->
-    
+    <?php include(ROOT_PATH . "/app/includes/service.php"); ?>
     <!-- Service End -->
 
 
