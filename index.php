@@ -79,93 +79,12 @@ include 'path.php';
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="text-secondary text-uppercase">Testimonial</h6>
-                <h1 class="mb-0">Our Clients Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item p-4 my-5">
-                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
-                    <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Andre Robin</h5>
-                            <p class="m-0">CTO, Art Media</p>
-                        </div>
-                    </div>
-                    <p class="mb-0">I found myself working in a true partnership that results in an incredible experience, and an end product that is the best for your shipping.</p>
-                    </p>
-                </div>
-                <div class="testimonial-item p-4 my-5">
-                    <i class="fa fa-quote-right fa-3x text-light position-absolute top-0 end-0 mt-n3 me-4"></i>
-                    <div class="d-flex align-items-end mb-4">
-                        <img class="img-fluid flex-shrink-0" src="assets/img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                        <div class="ms-4">
-                            <h5 class="mb-1">Tom Bella</h5>
-                            <p class="m-0">CEO, Greeny Stores</p>
-                        </div>
-                    </div>
-                    <p class="mb-0">When I started my company in early 2009 a key component was logistics and international freight for my products. I wanted a company that would partner with me, not just be a supplier. ShipTop has been just that, a partner in my business.</p>
-                    </p>
-                </div>
-                
-            </div>
-        </div>
-    </div>
+    <?php include(ROOT_PATH . "/app/includes/testimony.php"); ?>
     <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s" style="margin-top: 1rem;">
-        <div class="container">
-            <div class="row g-5 pb-5">
-
-                <div class="col-lg-6 col-md-12">
-                    <p>We are able to guarantee a very high level of satisfaction for our clients. Meeting & exceeding customers service expectations through our highly professional, empowered and motivated employees.</p>
-                </div>
-
-                <div class="col-lg-6 col-md-12">
-
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <h4 class="text-light mb-4">Contact Us</h4>
-                            <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                            <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                            <div class="d-flex pt-2">
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                                <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                            </div>
-                        </div>
-        
-                        <div class=" col-sm-6">
-                            <h4 class="text-light mb-4">Services</h4>
-                            <a class="btn btn-link" href="">Air Freight</a>
-                            <a class="btn btn-link" href="">Sea Freight</a>
-                            <a class="btn btn-link" href="">Road Freight</a>
-                            <a class="btn btn-link" href="">Storage</a>
-                        </div>
-                    </div>
-
-                </div>
-                
-                
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="text-center mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                    </div>
-                    
-            </div>
-        </div>
-    </div>
+    
     <!-- Footer End -->
 
 
