@@ -64,7 +64,7 @@ include 'path.php';
 
 
     <!-- Feature Start -->
-    
+    <?php include(ROOT_PATH . "/app/includes/feature.php"); ?>
     <!-- Feature End -->
 
 
