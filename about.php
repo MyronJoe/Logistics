@@ -106,16 +106,6 @@ include 'path.php';
     <!-- FREIGHT End -->
 
 
-    <!-- Quote Start -->
-    <?php include(ROOT_PATH . "/app/includes/quote.php"); ?>
-    <!-- Quote End -->
-
-
-    <!-- Testimonial Start -->
-    <?php include(ROOT_PATH . "/app/includes/testimony.php"); ?>
-    <!-- Testimonial End -->
-
-
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
     <!-- Footer End -->

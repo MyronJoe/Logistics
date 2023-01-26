@@ -32,7 +32,7 @@
                 <a href="contact.html" class="nav-item nav-link">Tracking</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><a href="#"><i class="fa fa-envelope text-primary me-3"></i></a></h4>
+            <p class="m-0 pe-lg-5 d-none d-lg-block"><a href="#"><i class="fa fa-envelope text-primary me-3"></i></a></p>
         </div>
     </nav>
     <!-- Navbar End -->
