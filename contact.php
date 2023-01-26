@@ -27,45 +27,7 @@ include 'path.php';
 	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 	<!-- /HEADER -->
 
-    <!-- Carousel Start -->
-    <?php include(ROOT_PATH . "/app/includes/carousel.php"); ?>
-    <!-- Carousel End -->
-
-
-    <!-- About Start -->
-    <?php include(ROOT_PATH . "/app/includes/about.php"); ?>
-    <!-- About End -->
-
-
-    <!-- Service Start -->
-    <?php include(ROOT_PATH . "/app/includes/service.php"); ?>
-    <!-- Service End -->
-
-
-    <!-- Fact Start -->
-    <?php include(ROOT_PATH . "/app/includes/service.php"); ?>
-    <!-- Fact End -->
-
-
-    <!-- Feature Start -->
-    <?php include(ROOT_PATH . "/app/includes/feature.php"); ?>
-    <!-- Feature End -->
-
-
-    <!-- FREIGHT Start -->
-    <?php include(ROOT_PATH . "/app/includes/freight.php"); ?>
-    <!-- FREIGHT End -->
-
-
-    <!-- Quote Start -->
-    <?php include(ROOT_PATH . "/app/includes/quote.php"); ?>
-    <!-- Quote End -->
-
-
-    <!-- Testimonial Start -->
-    <?php include(ROOT_PATH . "/app/includes/testimony.php"); ?>
-    <!-- Testimonial End -->
-
+   
 
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
