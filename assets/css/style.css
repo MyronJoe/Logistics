@@ -1,19 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.Tracker{
+.Tracker {
     border: none !important;
     padding: 2em;
 }
-.track-box{
+
+.track-box {
     background-color: rgba(0, 0, 128, 0.47);
     padding: 2em;
     width: 100%;
 }
-.track-box h2{
+
+.track-box h2 {
     color: white;
     font-size: 18px;
     text-align: left;
@@ -21,69 +23,79 @@
     padding: 0px 15px;
     margin-bottom: 1em;
 }
-.track-box p{
+
+.track-box p {
     color: white;
     font-size: 13px;
     font-weight: bold;
 }
-.inputs{
+
+.inputs {
     width: 100%;
     margin-top: 15px;
 }
-.inputs::placeholder{
+
+.inputs::placeholder {
     color: rgb(205, 205, 205);
 }
-.text{
+
+.text {
     font-size: 12px;
 }
-.service-item p, h4{
+
+.service-item p,
+h4 {
     margin-left: 25px;
     margin-right: 25px;
 }
-.fact{
+
+.fact {
     margin-top: 60px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.fact-inner{
+
+.fact-inner {
     background-color: rgba(0, 0, 128, 0.74);
     padding: 5em 0 !important;
 
 }
-.divide{
+
+.divide {
     height: 2px;
     width: 60px;
     background-color: orange;
     margin: 1em auto;
 }
 
-.fluid{
+.fluid {
     display: none;
 }
 
-.text-left{
+.text-left {
     text-align: left !important;
     border-left: 4px solid #FF3E41;
     padding: 0px 15px;
 }
 
-.contact{
+.contact {
     display: flex !important;
     justify-content: center !important;
-    /* align-items: center; */
     flex-direction: column;
 }
-.contact h2{
+
+.contact h2 {
     border-left: 4px solid #FF3E41;
     padding: 0px 15px;
 }
 
-.fa-phone{
+.fa-phone {
     transform: rotate(10deg) !important;
 }
+
 @media screen and (min-width:992px) {
-    .Tracker{
+    .Tracker {
         height: 575px;
         display: flex;
         flex-direction: column;
@@ -91,18 +103,18 @@
         align-items: center;
     }
 
-    .track-box h2{
+    .track-box h2 {
         font-size: 25px;
-       
+
     }
 
-    .text{
+    .text {
         width: 60%;
         margin: auto;
         font-size: 14px;
     }
 
-    .fluid{
+    .fluid {
         width: 100%;
         height: 377px;
         display: block;
@@ -208,7 +220,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -280,7 +292,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -336,7 +348,7 @@
     background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -347,19 +359,19 @@
         max-width: 100% !important;
     }
 
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -371,19 +383,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -512,19 +524,19 @@
         max-width: 100% !important;
     }
 
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
