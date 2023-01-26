@@ -47,7 +47,7 @@ include 'path.php';
     <div class="container overflow-hidden px-lg-0">
         <div class="container about px-lg-0">
             <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 wow fadeInLeft Tracker" data-wow-delay="0.1s" style="background-image: url(img/about.jpg);">
+                <div class="col-lg-6 wow fadeInLeft Tracker" data-wow-delay="0.1s" style="background-image: url(assets/img/about.jpg);">
                 
                 </div>
 
