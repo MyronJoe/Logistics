@@ -100,7 +100,7 @@ include 'path.php';
 
 
                     <div class="d-flex mt-4">
-                        <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i style="transform: scaleX(-1);" class="fa fa-phone text-primary me-3"></i></h4>
+                        <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3"></i></h4>
 
                         <div>
                             <h5>

@@ -79,7 +79,9 @@
     padding: 0px 15px;
 }
 
-
+.fa-phone{
+    transform: rotate(10deg) !important;
+}
 @media screen and (min-width:992px) {
     .Tracker{
         height: 575px;
