@@ -24,7 +24,7 @@
                     <div class="dropdown-menu fade-up m-0">
                         <a href="<?php echo BASE_URL . '/air.php' ?>" class="dropdown-item">AIR SERVICE</a>
                         <a href="<?php echo BASE_URL . '/road.php' ?>" class="dropdown-item">ROAD SERVICE</a>
-                        <a href="quote.html" class="dropdown-item">STORAGE SERVICE</a>
+                        <a href="<?php echo BASE_URL . '/storage.php' ?>" class="dropdown-item">STORAGE SERVICE</a>
                         <a href="feature.html" class="dropdown-item">WAREHOUSE SERVICE</a>
                         
                     </div>
