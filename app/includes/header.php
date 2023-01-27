@@ -9,7 +9,7 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+        <a href="<?php echo BASE_URL . '/' ?>" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="mb-2">Logistica <i class="fa fa-ship fa-1x text-primary"></i></h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -22,7 +22,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                     <div class="dropdown-menu fade-up m-0">
-                        <a href="price.html" class="dropdown-item">AIR SERVICE</a>
+                        <a href="<?php echo BASE_URL . '/air.php' ?>" class="dropdown-item">AIR SERVICE</a>
                         <a href="service.html" class="dropdown-item">ROAD SERVICE</a>
                         <a href="quote.html" class="dropdown-item">STORAGE SERVICE</a>
                         <a href="feature.html" class="dropdown-item">WAREHOUSE SERVICE</a>
