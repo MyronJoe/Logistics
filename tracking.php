@@ -21,10 +21,27 @@ include 'path.php';
 
     <style>
 
+.track-box h2, h5 {
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    border-left: 4px solid #FF3E41;
+    padding: 0px 15px;
+    margin-bottom: 1em;
+}
+.track-box {
+    background-color: rgba(0, 0, 128, 0.47);
+    padding: 2em;
+    width: 100%;
+}
+
 @media screen and (min-width:992px) {
-    .trackBox{
+    .track-box-0{
         width: 60% !important;
+        margin: auto;
     }
+
+    
 }
     </style>
     
@@ -37,29 +54,32 @@ include 'path.php';
 	<!-- /HEADER -->
 
    <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+   <div class="container-fluid page-header py-5" style="margin-bottom: 3rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">TRACK PACKAGE</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Contact</li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Track Package</a></li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
+
+    <!-- <span>Error Msg</span> -->
+    
+
     <!-- Contact Start -->
-    <div class=" container trackBox">
+    <div class=" container trackBox" style="margin-bottom: 3rem;">
         
+        <div class="track-box-0" style="background-image: url(assets/img/about.jpg);">
+
         <div class="track-box">
 
-            <h2>TRACK YOUR SHIPPING</h2>
+            <h5>Enter Your Cargo Tracking, Door to Door Office Order Number</h5>
 
-            <p>* PLEASE TYPE IN YOUR TRACKING ID TO GET YOUR TRACKING LOCATION INFORMATION</p>
-            
             <form>
                 <div>
                     <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
@@ -69,6 +89,9 @@ include 'path.php';
                     <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
                 </div>
             </form>
+
+
+            </div>
 
 
         </div>

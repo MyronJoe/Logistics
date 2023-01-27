@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-.track-box h2 {
+.track-box h2, h5 {
     color: white;
     font-size: 18px;
     text-align: left;
