@@ -29,8 +29,8 @@
 
                 </div>
             </div>
-            <a href="<?php echo BASE_URL . '/tracking.php' ?>" class="nav-item nav-link">Tracking</a>
-            <a href="<?php echo BASE_URL . '/contact.php' ?>" class="nav-item nav-link">Contact</a>
+            <a href="/tracking" class="nav-item nav-link">Tracking</a>
+            <a href="/contact" class="nav-item nav-link">Contact</a>
         </div>
         <p class="m-0 pe-lg-5 d-none d-lg-block"><a href="#"><i class="fa fa-envelope text-primary me-3"></i></a></p>
     </div>

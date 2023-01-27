@@ -38,7 +38,7 @@ include 'path.php';
 
         @media screen and (min-width:992px) {
             .track-box-0 {
-                width: 60% !important;
+                /* width: 60% !important; */
                 margin: auto;
             }
 
