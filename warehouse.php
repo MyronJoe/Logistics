@@ -34,7 +34,7 @@ include 'path.php';
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Storage Service</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Warehouse Service</a></li>
                 </ol>
             </nav>
         </div>
@@ -54,8 +54,9 @@ include 'path.php';
                     <ul class="list-group list-group-flush">
                         <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item ">Air Service</li></a>
                         <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item">Road Service</li></a>
-                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item text-primary">Storage Service</li></a>
-                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item">Warehouse Service</li></a>
+                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
+                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item text-primary">Warehouse Service</li></a>
+                        
                     </ul>
                     </div>
 
@@ -64,30 +65,30 @@ include 'path.php';
 
                     <h2 class="mb-3">Details</h2>
 
-                    <p>We will provide our customers and potential customer with a satisfying rental experience that is characterized by professionalism, cleanliness, security and value.</p>
+                    <h5>Excellent warehousing services with GWP</h5>
 
                     <p>
-                    We will provide our customers and potential customers with knowledgeable and well trained self storage professionals, willing, ready and able to meet their self storage needs.
+                    With over 240,000 square meters of warehousing space spread across 91 distribution centers in the United States, we provide a unique variety of warehousing offerings, using GWP (Good Warehouse Practice) compliant facilities. Among the variety of warehousing product options and ancillary services are:
                     </p>
 
-                    <p>
-                    We subscribe to the following principles:
-                    </p>
-
-                    <ul style="list-style: none;">
-                        <li>Honesty</li>
-                        <li>Integrity</li>
-                        <li>The ability to work with our valued customers</li>
-                    </ul>
-
-                    <p>By satisfying our customers’ needs, we will prosper as a business and meet the expectations of our owners and investors.</p>
+                    <ol>
+                        <li class="mb-2">General Warehousing</li>
+                        <li class="mb-2">Dedicated Warehousing</li>
+                        <li class="mb-2">Customized Warehousing</li>
+                        <li class="mb-2">Off-site Warehousing</li>
+                        <li class="mb-2">Inventory Management</li>
+                        <li class="mb-2">Sales Administration</li>
+                        <li class="mb-2">Distribution Management</li>
+                        <li class="mb-2">Information Management</li>
+                        <li class="mb-2">Credit Control Administration</li>
+                    </ol>
                    
 
-                    <img src="assets/img/services_storage.jpg" alt="">
+                    <img src="assets/img/services_warehouse.jpg" alt="">
 
                     <h2 class="my-3">Was Our Solution Best?</h2>
 
-                    <p>Need to keep your belongings safe and out of the way for an extended period of time? Your stuff is in safe hands with the storage professionals at National Storage. We’ve been providing tailored storage solutions for over 20 years, so it’s safe to say we know our stuff – and how to look after yours. With over 200 centers, you won’t have a problem finding a National Storage center near you. Whether you’ve downsized home and need some extra space for your stuff, or you’re looking for somewhere to keep your belongings during a lengthy overseas trip, we can provide a long-term storage solution that suits you.</p>
+                    <p>Powered by our own fleet of new vehicles ranging from 2 ton steel vans, 3.5 and 5 MVCs (Medium Chassis Vehicles) to 12 ton trucks, 30 and 40 ton articulated trucks (flat bed and box bodies), our road haulage products offer services that ensure the integrity and safe monitoring of your products until delivery..</p>
 
 
                 </div>

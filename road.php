@@ -55,7 +55,7 @@ include 'path.php';
                         <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item">Air Service</li></a>
                         <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item text-primary">Road Service</li></a>
                         <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
-                        
+                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item">Warehouse Service</li></a>
                     </ul>
                     </div>
 
