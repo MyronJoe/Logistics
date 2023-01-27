@@ -120,6 +120,9 @@ h4 {
         display: block;
         object-fit: cover;
     }
+    .trackBox{
+        width: 60% !important;
+    }
 }
 
 /********** Template CSS **********/

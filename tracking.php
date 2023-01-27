@@ -18,6 +18,15 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
+
+    <style>
+
+@media screen and (min-width:992px) {
+    .trackBox{
+        width: 60% !important;
+    }
+}
+    </style>
     
 </head>
 
@@ -43,31 +52,28 @@ include 'path.php';
     <!-- Page Header End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
-        <div class="container contact-page px-lg-0">
-        <div class="col-lg-6 wow fadeInLeft Tracker" data-wow-delay="0.1s" style="background-image: url(assets/img/about.jpg);">
-                    <div class="track-box">
+    <div class=" container trackBox">
+        
+        <div class="track-box">
 
-                        <h2>TRACK YOUR SHIPPING</h2>
+            <h2>TRACK YOUR SHIPPING</h2>
 
-                        <p>* PLEASE TYPE IN YOUR TRACKING ID TO GET YOUR TRACKING LOCATION INFORMATION</p>
-                       
-                        <form>
-                            <div>
-                                <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
-                            </div>
-                            
-                            <div>
-                                <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
-                            </div>
-                        </form>
-
-
-                    </div>
-
-
+            <p>* PLEASE TYPE IN YOUR TRACKING ID TO GET YOUR TRACKING LOCATION INFORMATION</p>
+            
+            <form>
+                <div>
+                    <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
                 </div>
+                
+                <div>
+                    <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
+                </div>
+            </form>
+
+
         </div>
+
+
     </div>
     <!-- Contact End -->
 
