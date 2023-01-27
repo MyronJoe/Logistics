@@ -49,7 +49,7 @@ include 'path.php';
 
                     <div class="card">
                         <div class="card-header">
-                            <h5>Service Category</h5>
+                            <h6>Service Category</h6>
                         </div>
                         <ul class="list-group list-group-flush">
                             <a href="<?php echo BASE_URL . '/air.php' ?>">
@@ -73,7 +73,7 @@ include 'path.php';
 
                     <h2 class="mb-3">Details</h2>
 
-                    <h5>Excellent warehousing services with GWP</h5>
+                    <h6>Excellent warehousing services with GWP</h6>
 
                     <p>
                         With over 240,000 square meters of warehousing space spread across 91 distribution centers in the United States, we provide a unique variety of warehousing offerings, using GWP (Good Warehouse Practice) compliant facilities. Among the variety of warehousing product options and ancillary services are:

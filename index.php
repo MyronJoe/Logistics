@@ -28,6 +28,12 @@ $routes = [
     '/contact' => 'views/contact.php',
 
     '/air' => 'views/air.php',
+
+    '/road' => 'views/road.php',
+
+    '/warehouse' => 'views/warehouse.php',
+
+    '/storage' => 'views/storage.php',
 ];
 
 

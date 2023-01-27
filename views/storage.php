@@ -49,7 +49,7 @@ include 'path.php';
 
                     <div class="card">
                         <div class="card-header">
-                            <h5>Service Category</h5>
+                            <h6>Service Category</h6>
                         </div>
                         <ul class="list-group list-group-flush">
                             <a href="<?php echo BASE_URL . '/air.php' ?>">

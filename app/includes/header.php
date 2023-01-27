@@ -23,9 +23,9 @@
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div class="dropdown-menu fade-up m-0">
                     <a href="/air" class="dropdown-item">AIR SERVICE</a>
-                    <a href="/service/road" class="dropdown-item">ROAD SERVICE</a>
-                    <a href="/service/storage' ?>" class="dropdown-item">STORAGE SERVICE</a>
-                    <a href="/service/warehouse" class="dropdown-item">WAREHOUSE SERVICE</a>
+                    <a href="/road" class="dropdown-item">ROAD SERVICE</a>
+                    <a href="/storage" class="dropdown-item">STORAGE SERVICE</a>
+                    <a href="/warehouse" class="dropdown-item">WAREHOUSE SERVICE</a>
 
                 </div>
             </div>
