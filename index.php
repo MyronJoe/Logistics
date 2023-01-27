@@ -1,12 +1,7 @@
 <?php
 
-include 'functions.php';
-
-// dd($_SERVER)
-
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
-// dd($uri);
 
 // if ($uri === '/') {
 //     require 'views/home.php';

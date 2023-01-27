@@ -8,8 +8,8 @@
                             <div class="col-10 col-lg-8">
                                 <h5 class="text-warning text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5>
                                 <h1 style="text-transform: uppercase;" class="display-3 text-white animated slideInDown mb-4">world most Fastest secure delivery service</h1>
-                                <a href="" class="btn btn-warning text-light py-md-3 px-md-5 me-3 animated slideInLeft">TRACK SHIPMENT</a>
-                                <a href="" class="btn btn-outline-warning text-light py-md-3 px-md-5 animated slideInRight">CONTACT US</a>
+                                <a href="/tracking" class="btn btn-warning text-light py-md-3 px-md-5 me-3 animated slideInLeft">TRACK SHIPMENT</a>
+                                <a href="/contact" class="btn btn-outline-warning text-light py-md-3 px-md-5 animated slideInRight">CONTACT US</a>
                             </div>
                         </div>
                     </div>
@@ -23,8 +23,8 @@
                             <div class="col-10 col-lg-8">
                                 <h5 class="text-warning text-uppercase mb-3 animated slideInDown">Transport & Logistics Solution</h5>
                                 <h1 style="text-transform: uppercase;" class="display-3 text-white animated slideInDown mb-4">#1 Place For Your Transport Solution</h1>
-                                <a href="" class="btn btn-warning text-light py-md-3 px-md-5 me-3 animated slideInLeft">TRACK SHIPMENT</a>
-                                <a href="" class="btn btn-outline-warning text-light py-md-3 px-md-5 animated slideInRight">CONTACT US</a>
+                                <a href="/tracking" class="btn btn-warning text-light py-md-3 px-md-5 me-3 animated slideInLeft">TRACK SHIPMENT</a>
+                                <a href="/contact" class="btn btn-outline-warning text-light py-md-3 px-md-5 animated slideInRight">CONTACT US</a>
                             </div>
                         </div>
                     </div>
