@@ -34,7 +34,7 @@ include 'path.php';
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Air Service</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Storage Service</a></li>
                 </ol>
             </nav>
         </div>
@@ -52,9 +52,9 @@ include 'path.php';
                         <h5>Service Category</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item text-primary">Air Service</li></a>
+                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item ">Air Service</li></a>
                         <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item">Road Service</li></a>
-                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
+                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item text-primary">Storage Service</li></a>
                         
                     </ul>
                     </div>
@@ -64,18 +64,30 @@ include 'path.php';
 
                     <h2 class="mb-3">Details</h2>
 
-                    <p>We provide an integrated network of air and ground transport options that give you the widest range of air cargo choices – all without having to make multiple calls to find the best rates. Your shipment size and speed requirements are matched to the perfect aircraft, eliminating waste and reducing expenses. If your deadline does not support using a scheduled flight, your shipment can fly via a dedicated air cargo charter service. From the moment you call until after your shipment reaches its final destination, you can trust ShipTop to deliver your freight, high quality and superior customer service – every time.</p>
+                    <p>We will provide our customers and potential customer with a satisfying rental experience that is characterized by professionalism, cleanliness, security and value.</p>
 
                     <p>
-                    A strong logistics chain is the foundation for every successful air cargo delivery. Xpress Delivery unlocks this competitive advantage for you through its experienced expediters, business longevity, relationships in the industry, advanced freight tracking technologies, and an extensive network of vehicles and airline partners.
+                    We will provide our customers and potential customers with knowledgeable and well trained self storage professionals, willing, ready and able to meet their self storage needs.
                     </p>
+
+                    <p>
+                    We subscribe to the following principles:
+                    </p>
+
+                    <ul style="list-style: none;">
+                        <li>Honesty</li>
+                        <li>Integrity</li>
+                        <li>The ability to work with our valued customers</li>
+                    </ul>
+
+                    <p>By satisfying our customers’ needs, we will prosper as a business and meet the expectations of our owners and investors.</p>
                    
 
-                    <img src="assets/img/services_air.jpg" alt="">
+                    <img src="assets/img/services_storage.jpg" alt="">
 
                     <h2 class="my-3">Was Our Solution Best?</h2>
 
-                    <p>ShipTop utilizes express shipping by air, allowing us to complete any air cargo delivery globally or within the United States and Canada in a matter of hours. Instead of maintaining our own aviation fleet, we coordinate the services of multiple cargo airlines to get your freight wherever you need it to be. This is the logistical strength and knowhow ShipTop provides across all of its services. We dive deep into air cargo schedules and have an in-depth understanding of global cargo routes. We investigate each airline carefully, ensuring they have the skills and resources to keep our clients’ items safe from start to finish. These critical business partnerships benefit our customers through competitive rates, superior service, and most importantly – getting to the destination on time with your air cargo safe and secure. No matter how tight a client’s deadline or how delicate the items they’re shipping, we have the resources and expertise to deliver them anytime, anywhere.</p>
+                    <p>Need to keep your belongings safe and out of the way for an extended period of time? Your stuff is in safe hands with the storage professionals at National Storage. We’ve been providing tailored storage solutions for over 20 years, so it’s safe to say we know our stuff – and how to look after yours. With over 200 centers, you won’t have a problem finding a National Storage center near you. Whether you’ve downsized home and need some extra space for your stuff, or you’re looking for somewhere to keep your belongings during a lengthy overseas trip, we can provide a long-term storage solution that suits you.</p>
 
 
                 </div>

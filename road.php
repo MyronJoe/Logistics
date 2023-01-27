@@ -54,6 +54,7 @@ include 'path.php';
                     <ul class="list-group list-group-flush">
                         <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item">Air Service</li></a>
                         <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item text-primary">Road Service</li></a>
+                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
                         
                     </ul>
                     </div>
@@ -86,10 +87,6 @@ include 'path.php';
         </div>
     </div>
     <!-- Contact End -->
-
-    <!-- Testimonial Start -->
-    <?php include(ROOT_PATH . "/app/includes/testimony.php"); ?>
-    <!-- Testimonial End -->
 
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
