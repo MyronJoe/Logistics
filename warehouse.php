@@ -18,17 +18,17 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
-    
+
 </head>
 
 <body>
-    
-    <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
 
-   <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <!-- HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
             <h3 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">SERVICE DETAILS</h3>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -46,18 +46,26 @@ include 'path.php';
         <div class="container contact-page px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-sm-12 col-md-4 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    
+
                     <div class="card">
-                    <div class="card-header">
-                        <h5>Service Category</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item ">Air Service</li></a>
-                        <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item">Road Service</li></a>
-                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
-                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item text-primary">Warehouse Service</li></a>
-                        
-                    </ul>
+                        <div class="card-header">
+                            <h5>Service Category</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <a href="<?php echo BASE_URL . '/air.php' ?>">
+                                <li class="list-group-item ">Air Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/road.php' ?>">
+                                <li class="list-group-item">Road Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/storage.php' ?>">
+                                <li class="list-group-item">Storage Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/warehouse.php' ?>">
+                                <li class="list-group-item text-primary">Warehouse Service</li>
+                            </a>
+
+                        </ul>
                     </div>
 
                 </div>
@@ -68,7 +76,7 @@ include 'path.php';
                     <h5>Excellent warehousing services with GWP</h5>
 
                     <p>
-                    With over 240,000 square meters of warehousing space spread across 91 distribution centers in the United States, we provide a unique variety of warehousing offerings, using GWP (Good Warehouse Practice) compliant facilities. Among the variety of warehousing product options and ancillary services are:
+                        With over 240,000 square meters of warehousing space spread across 91 distribution centers in the United States, we provide a unique variety of warehousing offerings, using GWP (Good Warehouse Practice) compliant facilities. Among the variety of warehousing product options and ancillary services are:
                     </p>
 
                     <ol>
@@ -82,7 +90,7 @@ include 'path.php';
                         <li class="mb-2">Information Management</li>
                         <li class="mb-2">Credit Control Administration</li>
                     </ol>
-                   
+
 
                     <img src="assets/img/services_warehouse.jpg" alt="">
 

@@ -18,17 +18,17 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
-    
+
 </head>
 
 <body>
-    
-    <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
 
-   <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <!-- HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
             <h3 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">SERVICE DETAILS</h3>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -46,17 +46,25 @@ include 'path.php';
         <div class="container contact-page px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-sm-12 col-md-4 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    
+
                     <div class="card">
-                    <div class="card-header">
-                        <h5>Service Category</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item ">Air Service</li></a>
-                        <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item">Road Service</li></a>
-                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item text-primary">Storage Service</li></a>
-                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item">Warehouse Service</li></a>
-                    </ul>
+                        <div class="card-header">
+                            <h5>Service Category</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <a href="<?php echo BASE_URL . '/air.php' ?>">
+                                <li class="list-group-item ">Air Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/road.php' ?>">
+                                <li class="list-group-item">Road Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/storage.php' ?>">
+                                <li class="list-group-item text-primary">Storage Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/warehouse.php' ?>">
+                                <li class="list-group-item">Warehouse Service</li>
+                            </a>
+                        </ul>
                     </div>
 
                 </div>
@@ -67,11 +75,11 @@ include 'path.php';
                     <p>We will provide our customers and potential customer with a satisfying rental experience that is characterized by professionalism, cleanliness, security and value.</p>
 
                     <p>
-                    We will provide our customers and potential customers with knowledgeable and well trained self storage professionals, willing, ready and able to meet their self storage needs.
+                        We will provide our customers and potential customers with knowledgeable and well trained self storage professionals, willing, ready and able to meet their self storage needs.
                     </p>
 
                     <p>
-                    We subscribe to the following principles:
+                        We subscribe to the following principles:
                     </p>
 
                     <ul style="list-style: none;">
@@ -81,7 +89,7 @@ include 'path.php';
                     </ul>
 
                     <p>By satisfying our customers’ needs, we will prosper as a business and meet the expectations of our owners and investors.</p>
-                   
+
 
                     <img src="assets/img/services_storage.jpg" alt="">
 
