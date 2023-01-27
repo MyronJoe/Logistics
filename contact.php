@@ -18,17 +18,17 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
-    
+
 </head>
 
 <body>
-    
-    <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
 
-   <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <!-- HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown">Contact Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">

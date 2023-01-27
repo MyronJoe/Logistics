@@ -18,17 +18,17 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
-    
+
 </head>
 
 <body>
-    
-    <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
 
-   <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
+    <!-- HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
             <h3 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">SERVICE DETAILS</h3>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -46,17 +46,25 @@ include 'path.php';
         <div class="container contact-page px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-sm-12 col-md-4 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    
+
                     <div class="card">
-                    <div class="card-header">
-                        <h5>Service Category</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item">Air Service</li></a>
-                        <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item text-primary">Road Service</li></a>
-                        <a href="<?php echo BASE_URL . '/storage.php' ?>"><li class="list-group-item">Storage Service</li></a>
-                        <a href="<?php echo BASE_URL . '/warehouse.php' ?>"><li class="list-group-item">Warehouse Service</li></a>
-                    </ul>
+                        <div class="card-header">
+                            <h5>Service Category</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <a href="<?php echo BASE_URL . '/air.php' ?>">
+                                <li class="list-group-item">Air Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/road.php' ?>">
+                                <li class="list-group-item text-primary">Road Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/storage.php' ?>">
+                                <li class="list-group-item">Storage Service</li>
+                            </a>
+                            <a href="<?php echo BASE_URL . '/warehouse.php' ?>">
+                                <li class="list-group-item">Warehouse Service</li>
+                            </a>
+                        </ul>
                     </div>
 
                 </div>
@@ -78,7 +86,7 @@ include 'path.php';
                     <p>Roadways are a crucial means of transport in America. They provide people and vehicles to commute a wide range of locations and help them to reach their destination without any hiccups. Road transport is the process of transporting goods or people from one destination to the other via roads. Road transportation is still the most heavily used mode of freight delivery service in Utah and any other regions of America. Even though marine, air or rail transport would be largely used means of solution for bigger size freight services for long distances, road transport will be dominating the freight delivery service across America for a long time.</p>
 
                     <p>
-                    With the evolution of the transport industry and the growth of many freight delivery service companies in the world, it would be very much unclear for the person in need of transport facilities in deciding which mode of transport would best suit their requirements. Hence it is important to understand the distance, the volume of delivery goods and speed of service for deciding on which model to prefer. Road transport is the most used of all the transport services available in the industry with the best freight delivery services in Utah like ShipTop. If you even use air/water/train transport for transporting goods from one country to another, you must use road transport for delivering them to their precise destination.
+                        With the evolution of the transport industry and the growth of many freight delivery service companies in the world, it would be very much unclear for the person in need of transport facilities in deciding which mode of transport would best suit their requirements. Hence it is important to understand the distance, the volume of delivery goods and speed of service for deciding on which model to prefer. Road transport is the most used of all the transport services available in the industry with the best freight delivery services in Utah like ShipTop. If you even use air/water/train transport for transporting goods from one country to another, you must use road transport for delivering them to their precise destination.
                     </p>
 
 
