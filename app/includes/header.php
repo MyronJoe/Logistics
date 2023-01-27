@@ -22,10 +22,10 @@
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                 <div class="dropdown-menu fade-up m-0">
-                    <a href="<?php echo BASE_URL . '/air.php' ?>" class="dropdown-item">AIR SERVICE</a>
-                    <a href="<?php echo BASE_URL . '/road.php' ?>" class="dropdown-item">ROAD SERVICE</a>
-                    <a href="<?php echo BASE_URL . '/storage.php' ?>" class="dropdown-item">STORAGE SERVICE</a>
-                    <a href="<?php echo BASE_URL . '/warehouse.php' ?>" class="dropdown-item">WAREHOUSE SERVICE</a>
+                    <a href="/air" class="dropdown-item">AIR SERVICE</a>
+                    <a href="/service/road" class="dropdown-item">ROAD SERVICE</a>
+                    <a href="/service/storage' ?>" class="dropdown-item">STORAGE SERVICE</a>
+                    <a href="/service/warehouse" class="dropdown-item">WAREHOUSE SERVICE</a>
 
                 </div>
             </div>

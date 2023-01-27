@@ -25,7 +25,9 @@ $routes = [
 
     '/tracking' => 'views/tracking.php',
 
-    '/contact' => 'views/contact.php'
+    '/contact' => 'views/contact.php',
+
+    '/air' => 'views/air.php',
 ];
 
 
