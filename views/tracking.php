@@ -83,11 +83,11 @@ include 'path.php';
 
                 <form>
                     <div>
-                        <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
+                        <input type="text" class="noRadius form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
                     </div>
 
                     <div>
-                        <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
+                        <button class="noRadius btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
                     </div>
                 </form>
 

@@ -25,6 +25,10 @@ a{
     border: none !important;
     padding: 2em;
 }
+.bold{
+    font-weight: bold !important;
+    /* font-size: 45px; */
+}
 
 .track-box {
     background-color: rgba(0, 0, 128, 0.47);
