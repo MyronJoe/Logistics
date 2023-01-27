@@ -63,18 +63,22 @@ include 'path.php';
 
                     <h2 class="mb-3">Details</h2>
 
-                    <p>We provide an integrated network of air and ground transport options that give you the widest range of air cargo choices – all without having to make multiple calls to find the best rates. Your shipment size and speed requirements are matched to the perfect aircraft, eliminating waste and reducing expenses. If your deadline does not support using a scheduled flight, your shipment can fly via a dedicated air cargo charter service. From the moment you call until after your shipment reaches its final destination, you can trust ShipTop to deliver your freight, high quality and superior customer service – every time.</p>
+                    <p>Roadways are a crucial means of transport in America. They provide people and vehicles to commute a wide range of locations and help them to reach their destination without any hiccups. Road transport is the process of transporting goods or people from one destination to the other via roads. Road transportation is still the most heavily used mode of freight delivery service in Utah and any other regions of America. Even though marine, air or rail transport would be largely used means of solution for bigger size freight services for long distances, road transport will be dominating the freight delivery service across America for a long time.</p>
 
-                    <p>
+                    <!-- <p>
                     A strong logistics chain is the foundation for every successful air cargo delivery. Xpress Delivery unlocks this competitive advantage for you through its experienced expediters, business longevity, relationships in the industry, advanced freight tracking technologies, and an extensive network of vehicles and airline partners.
                     </p>
-                   
+                    -->
 
-                    <img src="assets/img/services_air.jpg" alt="">
+                    <img src="assets/img/services_road.jpeg" alt="">
 
                     <h2 class="my-3">Was Our Solution Best?</h2>
 
-                    <p>ShipTop utilizes express shipping by air, allowing us to complete any air cargo delivery globally or within the United States and Canada in a matter of hours. Instead of maintaining our own aviation fleet, we coordinate the services of multiple cargo airlines to get your freight wherever you need it to be. This is the logistical strength and knowhow ShipTop provides across all of its services. We dive deep into air cargo schedules and have an in-depth understanding of global cargo routes. We investigate each airline carefully, ensuring they have the skills and resources to keep our clients’ items safe from start to finish. These critical business partnerships benefit our customers through competitive rates, superior service, and most importantly – getting to the destination on time with your air cargo safe and secure. No matter how tight a client’s deadline or how delicate the items they’re shipping, we have the resources and expertise to deliver them anytime, anywhere.</p>
+                    <p>Roadways are a crucial means of transport in America. They provide people and vehicles to commute a wide range of locations and help them to reach their destination without any hiccups. Road transport is the process of transporting goods or people from one destination to the other via roads. Road transportation is still the most heavily used mode of freight delivery service in Utah and any other regions of America. Even though marine, air or rail transport would be largely used means of solution for bigger size freight services for long distances, road transport will be dominating the freight delivery service across America for a long time.</p>
+
+                    <p>
+                    With the evolution of the transport industry and the growth of many freight delivery service companies in the world, it would be very much unclear for the person in need of transport facilities in deciding which mode of transport would best suit their requirements. Hence it is important to understand the distance, the volume of delivery goods and speed of service for deciding on which model to prefer. Road transport is the most used of all the transport services available in the industry with the best freight delivery services in Utah like ShipTop. If you even use air/water/train transport for transporting goods from one country to another, you must use road transport for delivering them to their precise destination.
+                    </p>
 
 
                 </div>
