@@ -16,4 +16,7 @@ $conn = new MySQLi($host, $user, $pass, $db_name);
 //     echo 'No Error detected';
 // }
 
+
+// php -S localhost:9990
+
 ?>
