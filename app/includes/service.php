@@ -13,7 +13,7 @@
                         </div>
                         <h4 class="mb-3">Air Freight</h4>
                         <p>Fastest method of delivery for your time sensitive packages.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="/air"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -23,7 +23,7 @@
                         </div>
                         <h4 class="mb-3">Warehouse Solutions</h4>
                         <p>Warehousing and storage solutions you can trust.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="/warehouse"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
@@ -33,7 +33,7 @@
                         </div>
                         <h4 class="mb-3">Road Freight</h4>
                         <p>Most cost-effective method of delivering your package.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <a class="btn-slide mt-2" href="/road"><i class="fa fa-arrow-right"></i><span>Read More</span></a>
                     </div>
                 </div>
 
