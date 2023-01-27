@@ -34,7 +34,7 @@ include 'path.php';
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Air Service</a></li>
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Road Service</a></li>
                 </ol>
             </nav>
         </div>
@@ -52,8 +52,8 @@ include 'path.php';
                         <h5>Service Category</h5>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item text-primary">Air Service</li></a>
-                        <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item">Road Service</li></a>
+                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item">Air Service</li></a>
+                        <a href="<?php echo BASE_URL . '/road.php' ?>"><li class="list-group-item text-primary">Road Service</li></a>
                         
                     </ul>
                     </div>
