@@ -7,6 +7,19 @@
 a{
     text-decoration: none;
 }
+.btn-primary{
+    background-color: #FF3E41 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.text-primary{
+    color: #FF3E41 !important;
+}
+
+.noRadius{
+    border-radius: 0 !important;
+}
 
 .Tracker {
     border: none !important;
