@@ -52,16 +52,16 @@ include 'path.php';
                             <h6>Service Category</h6>
                         </div>
                         <ul class="list-group list-group-flush">
-                            <a href="<?php echo BASE_URL . '/air.php' ?>">
+                            <a href="/air">
                                 <li class="list-group-item ">Air Service</li>
                             </a>
-                            <a href="<?php echo BASE_URL . '/road.php' ?>">
+                            <a href="/road">
                                 <li class="list-group-item">Road Service</li>
                             </a>
-                            <a href="<?php echo BASE_URL . '/storage.php' ?>">
+                            <a href="/storage">
                                 <li class="list-group-item">Storage Service</li>
                             </a>
-                            <a href="<?php echo BASE_URL . '/warehouse.php' ?>">
+                            <a href="/warehouse">
                                 <li class="list-group-item text-primary">Warehouse Service</li>
                             </a>
 
