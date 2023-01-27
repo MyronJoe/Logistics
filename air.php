@@ -30,7 +30,7 @@ include 'path.php';
    <!-- Page Header Start -->
    <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h3 class="display-3 text-white mb-3 animated slideInDown">SERVICE DETAILS</h3>
+            <h3 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">SERVICE DETAILS</h3>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
@@ -42,72 +42,39 @@ include 'path.php';
     <!-- Page Header End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
+    <div class="container overflow-hidden px-lg-0">
         <div class="container contact-page px-lg-0">
             <div class="row g-5 mx-lg-0">
-                <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase">Get In Touch</h6>
-                    <h1 class="mb-4">Contact For Any Query</h1>
-                    <div class="bg-light p-4">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="col-sm-12 col-md-4 contact-form wow fadeIn" data-wow-delay="0.1s">
+                    
+                    <div class="card">
+                    <div class="card-header">
+                        <h5>Service Category</h5>
                     </div>
+                    <ul class="list-group list-group-flush">
+                        <a href="<?php echo BASE_URL . '/air.php' ?>"><li class="list-group-item text-primary">Air Service</li></a>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                    </ul>
+                    </div>
+
                 </div>
-                <div class="col-md-6 pe-lg-0 wow fadeInRight contact" data-wow-delay="0.1s">
+                <div class="col-sm-12 col-md-8 pe-lg-0 wow fadeInRight contact" data-wow-delay="0.1s">
 
-                    <h2>KEEP IN TOUCH WITH US</h2>
+                    <h2 class="mb-3">Details</h2>
 
-                    <div class="d-flex mt-4">
-                        <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-envelope text-primary me-3"></i></h4>
+                    <p>We provide an integrated network of air and ground transport options that give you the widest range of air cargo choices – all without having to make multiple calls to find the best rates. Your shipment size and speed requirements are matched to the perfect aircraft, eliminating waste and reducing expenses. If your deadline does not support using a scheduled flight, your shipment can fly via a dedicated air cargo charter service. From the moment you call until after your shipment reaches its final destination, you can trust ShipTop to deliver your freight, high quality and superior customer service – every time.</p>
 
-                        <div>
-                            <h5>
-                                Mail Us
-                            </h5>
-                            <p>compName@gmail.com</p>
-                        </div>
-                    </div>
+                    <p>
+                    A strong logistics chain is the foundation for every successful air cargo delivery. Xpress Delivery unlocks this competitive advantage for you through its experienced expediters, business longevity, relationships in the industry, advanced freight tracking technologies, and an extensive network of vehicles and airline partners.
+                    </p>
+                   
 
+                    <img src="assets/img/services_air.jpg" alt="">
 
-                    <div class="d-flex mt-4">
-                        <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-phone text-primary me-3"></i></h4>
+                    <h2 class="my-3">Was Our Solution Best?</h2>
 
-                        <div>
-                            <h5>
-                                Whatsapp Us
-                            </h5>
-                            <p>+447466578065</p>
-                        </div>
-                    </div>
+                    <p>ShipTop utilizes express shipping by air, allowing us to complete any air cargo delivery globally or within the United States and Canada in a matter of hours. Instead of maintaining our own aviation fleet, we coordinate the services of multiple cargo airlines to get your freight wherever you need it to be. This is the logistical strength and knowhow ShipTop provides across all of its services. We dive deep into air cargo schedules and have an in-depth understanding of global cargo routes. We investigate each airline carefully, ensuring they have the skills and resources to keep our clients’ items safe from start to finish. These critical business partnerships benefit our customers through competitive rates, superior service, and most importantly – getting to the destination on time with your air cargo safe and secure. No matter how tight a client’s deadline or how delicate the items they’re shipping, we have the resources and expertise to deliver them anytime, anywhere.</p>
 
 
                 </div>
@@ -115,6 +82,10 @@ include 'path.php';
         </div>
     </div>
     <!-- Contact End -->
+
+    <!-- Testimonial Start -->
+    <?php include(ROOT_PATH . "/app/includes/testimony.php"); ?>
+    <!-- Testimonial End -->
 
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
