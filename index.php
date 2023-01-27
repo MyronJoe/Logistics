@@ -34,7 +34,7 @@ if (array_key_exists($uri, $routes)) {
 }else{
     http_response_code(404);
 
-    require 'views/home.php';
+    require 'views/error.php';
 
     die();
 }
