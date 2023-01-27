@@ -20,41 +20,42 @@ include 'path.php';
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
 
     <style>
+        .track-box h2,
+        h5 {
+            color: white;
+            font-size: 18px;
+            text-align: left;
+            border-left: 4px solid #FF3E41;
+            padding: 0px 15px;
+            margin-bottom: 1em;
+        }
 
-.track-box h2, h5 {
-    color: white;
-    font-size: 18px;
-    text-align: left;
-    border-left: 4px solid #FF3E41;
-    padding: 0px 15px;
-    margin-bottom: 1em;
-}
-.track-box {
-    background-color: rgba(0, 0, 128, 0.47);
-    padding: 2em;
-    width: 100%;
-}
+        .track-box {
+            background-color: rgba(0, 0, 128, 0.47);
+            padding: 2em;
+            width: 100%;
+        }
 
-@media screen and (min-width:992px) {
-    .track-box-0{
-        width: 60% !important;
-        margin: auto;
-    }
+        @media screen and (min-width:992px) {
+            .track-box-0 {
+                width: 60% !important;
+                margin: auto;
+            }
 
-    
-}
+
+        }
     </style>
-    
+
 </head>
 
 <body>
-    
-    <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
 
-   <!-- Page Header Start -->
-   <div class="container-fluid page-header py-5" style="margin-bottom: 3rem;">
+    <!-- HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5" style="margin-bottom: 3rem;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">TRACK PACKAGE</h1>
             <nav aria-label="breadcrumb animated slideInDown">
@@ -69,26 +70,26 @@ include 'path.php';
 
 
     <!-- <span>Error Msg</span> -->
-    
+
 
     <!-- Contact Start -->
     <div class=" container trackBox" style="margin-bottom: 3rem;">
-        
+
         <div class="track-box-0" style="background-image: url(assets/img/about.jpg);">
 
-        <div class="track-box">
+            <div class="track-box">
 
-            <h5>Enter Your Cargo Tracking, Door to Door Office Order Number</h5>
+                <h5>Enter Your Cargo Tracking, Door to Door Office Order Number</h5>
 
-            <form>
-                <div>
-                    <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
-                </div>
-                
-                <div>
-                    <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
-                </div>
-            </form>
+                <form>
+                    <div>
+                        <input type="text" class="form-control border-0 inputs" placeholder="ENTER TRACKING ID" style="height: 55px;">
+                    </div>
+
+                    <div>
+                        <button class="btn btn-primary w-100 py-3 inputs" type="submit">Track Now</button>
+                    </div>
+                </form>
 
 
             </div>

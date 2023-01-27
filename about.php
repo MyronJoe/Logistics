@@ -18,14 +18,14 @@ include 'path.php';
 
     <!-- All Styles -->
     <?php include(ROOT_PATH . "/app/includes/styles.php"); ?>
-    
+
 </head>
 
 <body>
-    
+
     <!-- HEADER -->
-	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
-	<!-- /HEADER -->
+    <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
+    <!-- /HEADER -->
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
@@ -48,7 +48,7 @@ include 'path.php';
         <div class="container about px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-lg-6 wow fadeInLeft Tracker" data-wow-delay="0.1s" style="background-image: url(assets/img/about.jpg);">
-                
+
                 </div>
 
 
