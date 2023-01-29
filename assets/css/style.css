@@ -8,13 +8,13 @@ a{
     text-decoration: none;
 }
 .btn-primary{
-    background-color: #FF3E41 !important;
+    background-color: #00317b !important;
     color: white !important;
     border: none !important;
 }
 
 .text-primary{
-    color: #FF3E41 !important;
+    color: #00317b !important;
 }
 
 .noRadius{
@@ -40,7 +40,7 @@ a{
     color: white;
     font-size: 18px;
     text-align: left;
-    border-left: 4px solid #FF3E41;
+    border-left: 4px solid #FFCA2C;
     padding: 0px 15px;
     margin-bottom: 1em;
 }
@@ -96,8 +96,10 @@ h4 {
 
 .text-left {
     text-align: left !important;
-    border-left: 4px solid #FF3E41;
+    border-left: 4px solid #FFCA2C;
     padding: 0px 15px;
+
+    /* FFCA2C */
 }
 
 .contact {
@@ -107,7 +109,7 @@ h4 {
 }
 
 .contact h2 {
-    border-left: 4px solid #FF3E41;
+    border-left: 4px solid #FFCA2C;
     padding: 0px 15px;
 }
 
@@ -148,7 +150,7 @@ h4 {
 
 /********** Template CSS **********/
 :root {
-    --primary: #FF3E41 !important;
+    --primary: #00317b !important;
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;

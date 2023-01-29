@@ -43,7 +43,7 @@ include 'path.php';
     <!-- Page Header End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid overflow-hidden px-lg-0">
+    <div class="container-fluid overflow-hidden px-lg-0 mb-5">
         <div class="container contact-page px-lg-0">
             <div class="row g-5 mx-lg-0">
                 <div class="col-md-6 contact-form wow fadeIn" data-wow-delay="0.1s">
