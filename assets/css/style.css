@@ -4,7 +4,10 @@
     box-sizing: border-box;
     
 }
-
+.content{
+    position: relative;
+    top: 70px;
+}
 #show-menu{
     display: none;
 }

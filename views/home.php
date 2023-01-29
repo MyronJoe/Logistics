@@ -27,6 +27,9 @@ include 'path.php';
 	<?php include(ROOT_PATH . "/app/includes/header.php"); ?>
 	<!-- /HEADER -->
 
+
+    <div class="content">
+
     <!-- Carousel Start -->
     <?php include(ROOT_PATH . "/app/includes/carousel.php"); ?>
     <!-- Carousel End -->
@@ -70,6 +73,10 @@ include 'path.php';
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
     <!-- Footer End -->
+
+
+
+    </div>
 
 
     <!-- Back to Top -->
