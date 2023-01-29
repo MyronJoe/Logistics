@@ -1,4 +1,4 @@
-<div class="container py-5 px-4 mt-4">
+<div class="container">
         <div class="container ">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp p-0 pic" data-wow-delay="0.1s">
