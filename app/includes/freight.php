@@ -13,7 +13,7 @@
                     <div class="price-item text-center">
                         <div class="border-bottom p-3 mb-3">
                             <p><i class="fa fa-plane fa-3x text-primary"></i></p>
-                            <a href="/air"><h5>AIR FREIGHT</h5></a>
+                            <a href="/air"><h5 class="text-primary">AIR FREIGHT</h5></a>
                         </div>
                         <div class="p-4 pt-0">
                             <p>
@@ -27,7 +27,7 @@
                     <div class="price-item text-center">
                         <div class="border-bottom p-3 mb-3">
                             <i style="transform: scaleX(-1)" class="fa fa-truck fa-3x text-primary mb-3"></i>
-                            <a href="/road"><h5>ROAD FREIGHT</h5></a>
+                            <a href="/road"><h5 class="text-primary">ROAD FREIGHT</h5></a>
                         </div>
                         <div class="p-4 pt-0">
                             <p>
@@ -41,7 +41,7 @@
                     <div class="price-item text-center">
                         <div class="border-bottom p-3 mb-3">
                             <p><i class="fa fa-ship fa-3x text-primary"></i></p>
-                            <a href="/warehouse"><h5>WAREHOUSE</h5></a>
+                            <a href="/warehouse"><h5 class="text-primary">WAREHOUSE</h5></a>
                         </div>
                         <div class="p-4 pt-0">
                             <p>
