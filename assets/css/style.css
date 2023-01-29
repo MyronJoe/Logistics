@@ -4,6 +4,21 @@
     box-sizing: border-box;
     
 }
+
+#show-menu{
+    display: none;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+
+#show-menu:checked ~ .menu-icon span::before{
+    content:'\f00d';
+    color: orange;
+}
+
 a{
     text-decoration: none;
 }

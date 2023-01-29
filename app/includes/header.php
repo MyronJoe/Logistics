@@ -8,13 +8,21 @@
 
 
 <!-- Navbar Start -->
-<nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
+<nav style="position: absolute; z-index:100; width:100%;" class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary  p-0">
     <a href="/" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
         <h2 class="mb-2">Logistica <i class="fa fa-ship fa-1x text-primary"></i></h2>
     </a>
-    <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+    
+    <!-- <p class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
-    </button>
+    </p> -->
+
+    <input type="checkbox" id="show-menu">
+
+    <label for="show-menu" class="menu-icon me-4 navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" style="cursor:pointer;">
+        <span style="font-size: 25px;" class="fa fa-bars"></span>
+    </label> 
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
             <a href="/" class="nav-item nav-link active">Home</a>
