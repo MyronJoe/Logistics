@@ -54,7 +54,9 @@ include 'path.php';
     <?php include(ROOT_PATH . "/app/includes/header.php"); ?>
     <!-- /HEADER -->
 
-    <!-- Page Header Start -->
+    <div class="content">
+
+        <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 3rem;">
         <div class="container py-5">
             <h1 class="display-3 text-white mb-3 animated slideInDown" style="font-size: 45px;">TRACK PACKAGE</h1>
@@ -104,6 +106,8 @@ include 'path.php';
     <!-- Footer Start -->
     <?php include(ROOT_PATH . "/app/includes/footer.php"); ?>
     <!-- Footer End -->
+
+    </div>
 
 
     <!-- Back to Top -->
