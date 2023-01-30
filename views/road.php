@@ -74,12 +74,8 @@ include 'path.php';
 
                     <h2 class="mb-3">Details</h2>
 
-                    <p>Roadways are a crucial means of transport in America. They provide people and vehicles to commute a wide range of locations and help them to reach their destination without any hiccups. Road transport is the process of transporting goods or people from one destination to the other via roads. Road transportation is still the most heavily used mode of freight delivery service in Utah and any other regions of America. Even though marine, air or rail transport would be largely used means of solution for bigger size freight services for long distances, road transport will be dominating the freight delivery service across America for a long time.</p>
-
-                    <!-- <p>
-                    A strong logistics chain is the foundation for every successful air cargo delivery. Xpress Delivery unlocks this competitive advantage for you through its experienced expediters, business longevity, relationships in the industry, advanced freight tracking technologies, and an extensive network of vehicles and airline partners.
+                    <p>Roadways are a crucial means of transport in America. They provide people and vehicles to commute a wide range of locations and help them to reach their destination without any hiccups. Road transport is the process of transporting goods or people from one destination to the other via roads. Road transportation is still the most heavily used mode of freight delivery service in Utah and any other regions of America. Even though marine, air or rail transport would be largely used means of solution for bigger size freight services for long distances, road transport will be dominating the freight delivery service across America for a long time.    
                     </p>
-                    -->
 
                     <img src="assets/img/services_road.jpeg" alt="">
 
