@@ -3,16 +3,6 @@
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 
 
-// if ($uri === '/') {
-//     require 'views/home.php';
-
-// }elseif($uri === '/about'){
-//     require 'views/about.php';
-
-// }elseif($uri === '/404'){
-//     echo 'Not found';
-// }
-
 $routes = [
     '/' => 'views/home.php',
 
