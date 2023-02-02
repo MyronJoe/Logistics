@@ -123,5 +123,14 @@
         return $stmt->affected_rows;
     }
 
-   
+    //here is the db delete funtion
+    function delete($table, $id){
+        global $conn;
+        $sql = "DELETE FROM $table WHERE id=? ";
+
+        $stmt = executeQuery($sql, ['id' => $id]);
+        return $stmt->affected_rows;
+    }
+
+    
 ?>
