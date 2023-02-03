@@ -31,6 +31,51 @@
         exit();
     }
 
+    //creating admin and normal user
+    if (isset($_POST['register-btn']) || isset($_POST['create-admin'])) {
+
+        // dump($_POST);
+
+        $errors = validateUser($_POST, $errors);
+        
+
+        if (count($errors) === 0) {
+            unset($_POST['passwordconfirm'], $_POST['register-btn'], $_POST['create-admin']);
+            $_POST["password"] = password_hash($_POST["password"], PASSWORD_DEFAULT);
+
+            if ($_POST['admin']) {
+
+                $_POST['admin'] = 1;
+                $_POST['profile_image'] = 'default.jpg';
+                // dump($_POST);
+                $user_id = create($table, $_POST);
+                $_SESSION['message'] = "Admin user created successfully";
+                $_SESSION['type'] = "success";
+                header("location: " . BASE_URL . "/admin/users/index.php");
+                exit();
+            }else{
+                $_POST['admin'] = 0;
+                $_POST['profile_image'] = 'default.jpg';
+                $user_id = create($table, $_POST);
+                $user = selectOne($table, ['id' => $user_id]);
+
+                // log user in after creating account
+                loginUser($user);
+            }
+
+        }else{
+
+            $username = $_POST["username"];
+            $email = $_POST["email"];
+            $password = $_POST["password"];
+            $confirmpass = $_POST["passwordconfirm"];
+            $admin = isset($_POST['admin']) ? 1 : 0;
+        }
+        // dump($user);
+    }
+
+
     
+
 
 ?>
