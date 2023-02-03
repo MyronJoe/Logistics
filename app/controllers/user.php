@@ -96,6 +96,28 @@
         $password = $_POST["password"];
     }
 
+    //Delete admin functionality
+    if (isset($_GET['del_id'])) {
+        // adminOnly();
+        $id = $_GET['del_id'];
+        $count = delete($table, $id);
+        $_SESSION['message'] = 'User was deleted successfully';
+        $_SESSION["type"] = "success";
+        header('location: '. BASE_URL . '/admin/users/index.php');
+        exit();
+    }
+
+
+    if(isset($_GET['user_id'])) {
+        $user = selectOne('users', ["id" => $_GET['user_id']]);
+        $id = $user['id'];
+        $username = $user['username'];
+        $email = $user['email'];
+        $admin = $user['admin'];
+        $user_image = $user['profile_image'];
+    }
+
+
     
 
 
