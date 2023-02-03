@@ -75,6 +75,27 @@
     }
 
 
+    //login function
+    if (isset($_POST['login-btn'])) {
+
+        $errors = validateLogin($_POST, $errors);
+
+        if (count($errors) === 0) {
+            $user = selectOne($table, ['email' => $_POST["email"]]);
+
+            if ($user && password_verify($_POST["password"], $user['password'])) {
+                //if true, log user in
+                loginUser($user);
+
+            }else{
+                array_push($errors, 'Check email and password');
+            }
+            
+        }
+        $email = $_POST["email"];
+        $password = $_POST["password"];
+    }
+
     
 
 
